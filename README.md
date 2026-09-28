@@ -99,12 +99,16 @@ As consultas executadas sobre as tabelas materializadas na Camada Gold permitira
 1. **Receita por Categoria (`gold_receita_por_categoria`):** O faturamento da Olist concentra-se fortemente em categorias de bens de consumo de alta procura, com destaque para *beleza_saude*, *relogios_presentes* e *cama_mesa_banho*.
 
    ![gold_receita_por_categoria](assets/print_pergunta_1.png)
-3. **Logística e Geografia (`gold_frete_tempo_regiao`):** Identificou-se uma clara disparidade regional. Estados localizados nas regiões Norte e Nordeste (como Amapá, Roraima e Amazonas) enfrentam prazos médios de entrega superiores a 25 dias e custos de frete proporcionalmente muito mais elevados.
+2. **Logística e Geografia (`gold_frete_tempo_regiao`):** Identificou-se uma clara disparidade regional. Estados localizados nas regiões Norte e Nordeste (como Amapá, Roraima e Amazonas) enfrentam prazos médios de entrega superiores a 25 dias e custos de frete proporcionalmente muito mais elevados.
 
    ![gold_frete_tempo_regiao](assets/print_pergunta_2.png)
-5. **Comportamento de Pagamento (`gold_ticket_medio_pagamento`):** O *Cartão de Crédito* lidera de forma absoluta o volume de transações e apresenta o maior ticket médio (~R$ 163), evidenciando a dependência do parcelamento para compras de maior valor no e-commerce.
+3. **Comportamento de Pagamento (`gold_ticket_medio_pagamento`):** O *Cartão de Crédito* lidera de forma absoluta o volume de transações e apresenta o maior ticket médio (~R$ 163), evidenciando a dependência do parcelamento para compras de maior valor no e-commerce.
 
    ![gold_ticket_medio_pagamento](assets/print_pergunta_3.png)
+
+Problema: **Como a eficiência operacional de entrega e os padrões de pagamento impactam a receita e o valor gerado por categoria de produto no e-commerce?**
+
+Solução: O problema central reside em equilibrar a experiência do cliente através da logística de *frete/prazos* com o incentivo aos *meios de pagamento* de maior ticket (crédito), maximizando a receita nas *categorias* campeãs de vendas sem perder margem nas regiões mais distantes.
 
 ---
 
